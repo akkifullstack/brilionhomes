@@ -1,0 +1,35 @@
+{
+  "name": "briliohomes",
+  "version": "1.0.0",
+  "description": "property listing ",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server --watch"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "^0.21.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1",
+    "yarn-install": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

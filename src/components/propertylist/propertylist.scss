@@ -1,0 +1,105 @@
+.row-prop{
+    width: auto;
+    padding: 0px 20px 50px 20px;
+    margin: 20px 20px 20px 20px;
+    border:1px solid #eee;
+
+}
+
+.main-container{
+    display: grid;
+    grid-area: auto;
+    grid-auto-flow: column;
+}
+
+.row{
+    width: auto;
+    background-color:#204988;
+    padding: 0px 20px 50px 20px;
+    margin: 20px;
+}
+
+.logo {
+    width:auto;
+    float:left; 
+    color: #fff; 
+    font-family: 'Maven Pro', sans-serif;
+  }
+  
+  .filter {
+      float: right;
+      list-style: none;
+  }
+  
+  .filter li {
+      display: inline-block;
+      margin-left: 40px;
+      color: #fff;
+      font-family: 'Maven Pro', sans-serif;      
+  }
+
+  .property-list{
+      margin-top: 20px;
+      border:1px solid #eee;
+      box-shadow: 2px 6px 10px rgb(148, 147, 147);
+  }
+  .property-list img {
+      margin: 10px;
+      height: 150px;
+      padding: 20px;
+      width: auto;
+      box-shadow: 1px 6px 10px rgb(148, 147, 147);
+  }
+
+
+  .btn:link,
+  .btn:visited {
+      display: inline-block;
+      height: 20px;
+      padding: 10px 30px;
+      font-weight: 300;
+      text-decoration: none;
+      border-radius: 10px;
+      margin-top: 20px;
+  }
+
+.btn-rent:link,
+.btn-rent:visited {
+    background-color: #54abdd;
+    color:#fff;
+    border: 1px solid #54abdd;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-right: 15px;
+}
+.btn-rent:hover,
+.btn-rent:active{
+    background-color: #fcfbfa;
+    color: #54abdd;
+}
+.btn-new:link,
+.btn-new:visited {
+    border: 1px solid #178351;
+    color:#fff;
+    margin-right: 15px;
+    background-color: #178351;
+
+}
+.btn-new:hover,
+.btn-new:active{
+    background-color: #fcfbfa;
+    color:#178351;
+    border: 1px solid #178351;
+}
+
+.propertyimg{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: row;
+}
+
+.propertydetail{
+    display: table-cell;
+    margin-left: 70px;
+
+}

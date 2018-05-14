@@ -1,0 +1,79 @@
+input[type=text] {
+    position: relative;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid #fff;
+    border-bottom-color: #a19f9f;
+    left: 10px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h2{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+form{
+    width: 100%;
+}
+.row-post{
+        display: grid;
+        grid-area: auto;
+        grid-auto-flow: column;
+        background-color: #204988;
+        margin: 20px;
+        color:#fff;
+}
+
+.refresh {
+    margin: 25px 20px;
+    background-color: transparent;
+}
+
+
+input[type=button]{
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 20px;
+    width: 50%;
+    background-color: rgb(247, 113, 35);
+    border: 1px solid #fff;
+    border-bottom-color: #a19f9f;
+    margin-left: 100px;
+    border-radius: 10px;
+    left:20px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.container {
+    display: flex;
+    position: relative; 
+}
+.form-container {
+    margin-top:20px;
+    padding: 0px;
+}
+
+button {
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 20px;
+    width: 50%;
+    background-color: rgb(247, 113, 35);
+    border: 1px solid #fff;
+    border-bottom-color: #a19f9f;
+    margin-left: 100px;
+    border-radius: 10px;
+    left:20px;
+    font-family: 'Maven Pro', sans-serif;
+}
